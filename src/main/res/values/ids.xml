@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="arrowDown" type="id" />
+    <item name="arrowRight" type="id" />
+    <item name="arrowUp" type="id" />
+    <item name="click_close" type="id" />
+</resources>

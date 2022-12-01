@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="358dp"
+            android:background="#D82F2F"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/wellcom2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:text="ברוכים הבאים לפסיכומילונית"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/hh" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tet_start2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:text="אנו שמחים שהחלטתם להשתמש במשחק שלנו במשחק זה תלמדו מילים חדשות לקראת הפסיכומטרי"
+            android:textColor="#D82F2F"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txt_write_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="בבקשה הקלידו את שמכם"
+            android:textColor="#DCC815"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="בבקשה הקלידו את שמכם"
+            android:textColor="#DCC815"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_imput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/btn_save_nave"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="#A9FAE528"
+            android:text="לחצו כאן"
+            android:textColor="#D82F2F"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/but_next"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#D82F2F"
+            android:text="מעבר למשחק"
+            android:textColor="#FDFDFD"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

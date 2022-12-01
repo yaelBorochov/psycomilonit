@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pop_bg"
+    tools:context=".PopActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:gravity="center"
+            android:text="משחק זה יכין אתכם לקראת הפסיכומטרי בדף הבא תוכלו להיכנס לאיזו רמה שאתם רוצים בכל רמה יוקצב לכם זמן בו תוכלו לבחור את התשובה הנכונה המתאימה לפירוש שלמעלה בסוף המשחק נעלה לכם את מספר הנקודות שצברתם ואת מספר הנקודות שטעיתם ונחשב לכם את הציון בהתאם למספר השאלות שעניתם"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/but_close"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:height="20dp"
+            android:background="#F9FAFB"
+            android:text="יציאה"
+            android:textColor="#0536FF"
+            android:textSize="14sp"
+            android:textStyle="bold" />    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
